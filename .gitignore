@@ -1,0 +1,52 @@
+# ---- CLion / IntelliJ ----
+.idea/
+*.iml
+
+# ---- CMake build ----
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# ---- Build artifacts ----
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.a
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# ---- Logs / Debug ----
+*.log
+*.swp
+*.swo
+*.tmp
+
+# ---- OS-specific ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# ---- Optional ----
+# If you want to keep build dir local
+/build/
